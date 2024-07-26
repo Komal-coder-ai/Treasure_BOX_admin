@@ -1,0 +1,52 @@
+.product_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.datatableclass {
+    overflow: scroll;
+}
+
+.productTable .rdt_Table .rdt_TableBody .rdt_TableRow .rdt_TableCell:nth-child(8) img {
+    display: none !important;
+}
+
+.productTable .cYMhfa {
+    max-height: 50px !important;
+    overflow: hidden !important;
+}
+
+
+.productTableEmptyClass {
+    margin-left: 14px;
+}
+
+.viewedit_btn {
+    width: 100px !important;
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+
+.description_oftable,
+.description_oftable ul,
+.description_oftable p,
+.description_oftable li,
+.description_oftable h1,
+.description_oftable h2,
+.description_oftable h3,
+.description_oftable h4,
+.description_oftable h5,
+.description_oftable h6 {
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    list-style: none;
+    overflow: hidden;
+    line-height: 1.4;
+    width: 100%;
+}

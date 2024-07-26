@@ -1,0 +1,24 @@
+.input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.deliveryChargesClass{
+  display: flex !important;
+  flex-direction: column !important;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 10px 25px;
+}
+
+
+.deliveryChargesClassOutside{
+  text-align: center;
+}
+.delivery_btn{
+  display: flex;
+  justify-content: end !important;
+  margin-top: 15px !important;
+}

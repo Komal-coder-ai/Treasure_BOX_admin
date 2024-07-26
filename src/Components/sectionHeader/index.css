@@ -1,0 +1,14 @@
+
+.section_header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section_header p{
+    font-weight: 600;
+    font-size: 25px;
+}

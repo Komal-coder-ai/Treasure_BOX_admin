@@ -1,0 +1,55 @@
+/* 
+.titleImageClass img{
+    max-width: 350px;
+    max-height: 180px;
+    margin-top: 10px;
+} */
+
+
+
+.titleImageClass img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+ h2{
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+
+
+.titleOutsideClass{
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 80vh;
+    margin-bottom: 25px ;
+}
+
+
+.titleMainCompClass{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+.titlefeild_container{
+    display: flex !important;
+    padding: 10px 25px;
+  }
+
+  
+  .titlefileuploader label{
+    border: 1px solid #bcbbbb !important;
+  }
+  .titlefileuploader{
+    display: flex !important;
+    flex-direction: column;
+  }

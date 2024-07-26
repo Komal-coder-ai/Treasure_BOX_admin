@@ -1,0 +1,8 @@
+.view-btn{
+    position: relative;
+    top: 70px;
+}
+.align{
+    align-items: center;
+    display: flex;
+}

@@ -1,0 +1,10 @@
+.ck-editor__main ul {
+    padding: revert !important;
+  }
+  .ck-content {
+    min-height: 150px;
+  }
+  .ck-widget img {
+    height: 150px;
+  }
+  

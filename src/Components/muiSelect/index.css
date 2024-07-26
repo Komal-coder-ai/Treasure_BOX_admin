@@ -1,0 +1,19 @@
+.status_select .MuiInputBase-root .MuiSelect-select{
+    padding: 5px;
+    padding-right: 45px !important;
+}
+.status_select .MuiInputLabel-root {
+    top: -11px;
+}
+.status_select .MuiInputLabel-root.Mui-focused{
+    top: 0px !important;
+}
+/* .MuiBox-root div:nth-child(1){
+    overflow: initial !important;
+} */
+/* .status_select .MuiFormLabel-root-MuiInputLabel-root{
+    transform: translate(14px, 4px) scale(1) !important;
+} */
+.status_select .MuiInputLabel-shrink{
+    top: 0 !important;
+}

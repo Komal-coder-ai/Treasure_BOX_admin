@@ -1,0 +1,62 @@
+.dropzone_container_Banner {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.image-item_banner {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.image-item__btn-wrapper_banner {
+  display: flex;
+  gap: 2px;
+  margin-top: 5px;
+}
+.dropzone_del_btn_banner {
+  height: 40px;
+  width: 100px;
+}
+
+.popup_btn_banner {
+  background-color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.btn_container_popup_banner {
+  display: flex;
+  justify-content: right;
+  padding: 10px;
+  gap: 5px;
+}
+.popup_action_btn_banner {
+  padding: 5px;
+  border-radius: 4px;
+}
+.container_Image_uploader {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dropzone_container_Banner label {
+  min-height: 200px !important;
+  min-width: 300px !important;
+  max-width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  border-style: dashed !important;
+}
+.dropzone_container_Banner label .kxMJIn {
+  flex-grow: 0 !important;
+}

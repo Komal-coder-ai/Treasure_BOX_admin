@@ -1,0 +1,13 @@
+.loading_btn{
+    background-color: var(--theme--bg) !important;  
+    color: var(--white) !important;
+    padding: 12px 20px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-width: 120px;
+    height: 45px !important;
+    cursor: pointer;
+}

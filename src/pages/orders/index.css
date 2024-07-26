@@ -1,0 +1,136 @@
+.order_details_container {
+  min-height: 80vh;
+  padding: 20px 40px;
+  width: 100%;
+}
+
+.order_detail_container_one {
+  /* display: flex; */
+  gap: 25px;
+}
+
+.product_detail_card {
+  margin-bottom: 30px;
+}
+
+.pageheading_div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.order_detail_container_one_fluid {
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.order_detail_container_fluid {
+  min-width: 30%;
+  box-sizing: border-box;
+}
+
+.product_detail_order {
+  width: 100%;
+  min-height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+}
+
+.submitTrackingId {
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+}
+
+.customer_details_inside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address_details_inside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+}
+
+.address_details_inside h4 {
+  font-weight: 500;
+}
+
+.order_status_selector {
+  height: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.confirmation_popup {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 999999;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 15px;
+}
+
+.confirmation_popup .p-dialog-footer {
+  margin-top: 10px;
+  justify-content: end;
+  display: flex;
+  gap: 10px;
+}
+
+.confirmation_popup .p-dialog-header {
+  margin-bottom: 10px;
+}
+
+
+.confirmation_popup .p-button {
+  background-color: var(--theme--bg);
+  color: var(--white);
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.view_btn_orderdetail {
+  background-color: var(--bg-Icon);
+  color: #000000;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.excel-btn-container {
+  display: flex;
+  justify-content: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
